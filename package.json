@@ -1,0 +1,20 @@
+{
+  "name": "ticket-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./scraper.js",
+    "tests": "node ./tests.js"
+  },
+  "author": "Mat Kamil",
+  "license": "ISC"
+}
